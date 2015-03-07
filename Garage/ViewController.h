@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *goButton;
 
-
+- (IBAction)goButton:(id)sender;
+- (IBAction)unwindToList:(UIStoryboardSegue *)segue;
 @end
 

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Settings.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -16,9 +17,11 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property Settings *setting;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+- (void)saveSettings:(Settings*)settings;
 
 
 @end

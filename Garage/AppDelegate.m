@@ -14,9 +14,72 @@
 
 @implementation AppDelegate
 
+- (void)saveSettings:(Settings*)setting
+{
+    _setting.protocol = setting.protocol;
+    _setting.host = setting.host;
+    _setting.port = setting.port;
+    _setting.pin = setting.pin;
+    
+    // Override point for customization after application launch.
+    NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Settings"];
+    NSMutableArray *settings = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
+    
+    NSManagedObject *mySetting;
+    
+    if (settings.count == 0)
+    {
+        // Create a new managed object
+        mySetting = [NSEntityDescription insertNewObjectForEntityForName:@"Settings" inManagedObjectContext:managedObjectContext];
+    }
+    else{
+        mySetting = [settings objectAtIndex:0];
+        
+    }
+
+    [mySetting setValue:_setting.protocol forKey:@"protocol"];
+    [mySetting setValue:_setting.port forKey:@"port"];
+    [mySetting setValue:_setting.host forKey:@"host"];
+    [mySetting setValue:_setting.pin forKey:@"pin"];
+    
+    [self saveContext];
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Settings"];
+    NSMutableArray *settings = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
+    
+    NSManagedObject *mySetting;
+    
+    if (settings.count == 0)
+    {
+        
+        // Create a new managed object
+        mySetting = [NSEntityDescription insertNewObjectForEntityForName:@"Settings" inManagedObjectContext:managedObjectContext];
+        [mySetting setValue:@"http" forKey:@"protocol"];
+        [mySetting setValue:@"80" forKey:@"port"];
+        [mySetting setValue:@"10.0.1.201" forKey:@"host"];
+        [mySetting setValue:@"2" forKey:@"pin"];
+        
+        [self saveContext];
+    }
+    else{
+        mySetting = [settings objectAtIndex:0];
+    }
+    
+    if (_setting == nil)
+    {
+        _setting = [[Settings alloc]init];
+        _setting.port = [mySetting valueForKey:@"port"];
+        _setting.protocol = [mySetting valueForKey:@"protocol"];
+        _setting.host = [mySetting valueForKey:@"host"];
+        _setting.pin = [mySetting valueForKey:@"pin"];
+    }
+
     return YES;
 }
 
@@ -49,6 +112,7 @@
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
+@synthesize setting = _setting;
 
 - (NSURL *)applicationDocumentsDirectory {
     // The directory the application uses to store the Core Data store file. This code uses a directory named "sidney.Garage" in the application's documents directory.

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2E5BC0F1AA97F89007D1E79 /* moby1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC0C1AA97F89007D1E79 /* moby1.png */; };
+		E2E5BC101AA97F89007D1E79 /* moby2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC0D1AA97F89007D1E79 /* moby2.png */; };
+		E2E5BC111AA97F89007D1E79 /* moby3.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC0E1AA97F89007D1E79 /* moby3.png */; };
+		E2E5BC1B1AA98017007D1E79 /* moby11.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC121AA98017007D1E79 /* moby11.png */; };
+		E2E5BC1C1AA98017007D1E79 /* moby12.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC131AA98017007D1E79 /* moby12.png */; };
+		E2E5BC1D1AA98017007D1E79 /* moby4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC141AA98017007D1E79 /* moby4.png */; };
+		E2E5BC1E1AA98017007D1E79 /* moby5.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC151AA98017007D1E79 /* moby5.png */; };
+		E2E5BC1F1AA98017007D1E79 /* moby6.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC161AA98017007D1E79 /* moby6.png */; };
+		E2E5BC201AA98017007D1E79 /* moby7.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC171AA98017007D1E79 /* moby7.png */; };
+		E2E5BC211AA98017007D1E79 /* moby8.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC181AA98017007D1E79 /* moby8.png */; };
+		E2E5BC221AA98017007D1E79 /* moby9.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC191AA98017007D1E79 /* moby9.png */; };
+		E2E5BC231AA98017007D1E79 /* moby10.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E5BC1A1AA98017007D1E79 /* moby10.png */; };
 		E2E88BFC1AA3FBFE00048A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E88BFB1AA3FBFE00048A90 /* main.m */; };
 		E2E88BFF1AA3FBFE00048A90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E88BFE1AA3FBFE00048A90 /* AppDelegate.m */; };
 		E2E88C021AA3FBFE00048A90 /* Garage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2E88C001AA3FBFE00048A90 /* Garage.xcdatamodeld */; };
@@ -15,6 +27,8 @@
 		E2E88C0A1AA3FBFE00048A90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E88C091AA3FBFE00048A90 /* Images.xcassets */; };
 		E2E88C0D1AA3FBFE00048A90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2E88C0B1AA3FBFE00048A90 /* LaunchScreen.xib */; };
 		E2E88C191AA3FBFE00048A90 /* GarageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E88C181AA3FBFE00048A90 /* GarageTests.m */; };
+		E2E88C241AA6C4A100048A90 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E88C231AA6C4A100048A90 /* Settings.m */; };
+		E2E88C2D1AA6D88600048A90 /* EditSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E88C2C1AA6D88600048A90 /* EditSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2E5BC0C1AA97F89007D1E79 /* moby1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby1.png; path = handImg/moby1.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC0D1AA97F89007D1E79 /* moby2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby2.png; path = handImg/moby2.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC0E1AA97F89007D1E79 /* moby3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby3.png; path = handImg/moby3.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC121AA98017007D1E79 /* moby11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby11.png; path = handImg/moby11.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC131AA98017007D1E79 /* moby12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby12.png; path = handImg/moby12.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC141AA98017007D1E79 /* moby4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby4.png; path = handImg/moby4.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC151AA98017007D1E79 /* moby5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby5.png; path = handImg/moby5.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC161AA98017007D1E79 /* moby6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby6.png; path = handImg/moby6.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC171AA98017007D1E79 /* moby7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby7.png; path = handImg/moby7.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC181AA98017007D1E79 /* moby8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby8.png; path = handImg/moby8.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC191AA98017007D1E79 /* moby9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby9.png; path = handImg/moby9.png; sourceTree = SOURCE_ROOT; };
+		E2E5BC1A1AA98017007D1E79 /* moby10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moby10.png; path = handImg/moby10.png; sourceTree = SOURCE_ROOT; };
 		E2E88BF61AA3FBFE00048A90 /* Garage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E88BFA1AA3FBFE00048A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E88BFB1AA3FBFE00048A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +68,10 @@
 		E2E88C121AA3FBFE00048A90 /* GarageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E88C171AA3FBFE00048A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E88C181AA3FBFE00048A90 /* GarageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GarageTests.m; sourceTree = "<group>"; };
+		E2E88C221AA6C4A100048A90 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		E2E88C231AA6C4A100048A90 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		E2E88C2B1AA6D88600048A90 /* EditSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditSettingsViewController.h; sourceTree = "<group>"; };
+		E2E88C2C1AA6D88600048A90 /* EditSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +113,31 @@
 		E2E88BF81AA3FBFE00048A90 /* Garage */ = {
 			isa = PBXGroup;
 			children = (
+				E2E5BC121AA98017007D1E79 /* moby11.png */,
+				E2E5BC131AA98017007D1E79 /* moby12.png */,
+				E2E5BC141AA98017007D1E79 /* moby4.png */,
+				E2E5BC151AA98017007D1E79 /* moby5.png */,
+				E2E5BC161AA98017007D1E79 /* moby6.png */,
+				E2E5BC171AA98017007D1E79 /* moby7.png */,
+				E2E5BC181AA98017007D1E79 /* moby8.png */,
+				E2E5BC191AA98017007D1E79 /* moby9.png */,
+				E2E5BC1A1AA98017007D1E79 /* moby10.png */,
+				E2E5BC0C1AA97F89007D1E79 /* moby1.png */,
+				E2E5BC0D1AA97F89007D1E79 /* moby2.png */,
+				E2E5BC0E1AA97F89007D1E79 /* moby3.png */,
 				E2E88BFD1AA3FBFE00048A90 /* AppDelegate.h */,
 				E2E88BFE1AA3FBFE00048A90 /* AppDelegate.m */,
 				E2E88C031AA3FBFE00048A90 /* ViewController.h */,
 				E2E88C041AA3FBFE00048A90 /* ViewController.m */,
 				E2E88C061AA3FBFE00048A90 /* Main.storyboard */,
+				E2E88C2B1AA6D88600048A90 /* EditSettingsViewController.h */,
+				E2E88C2C1AA6D88600048A90 /* EditSettingsViewController.m */,
 				E2E88C091AA3FBFE00048A90 /* Images.xcassets */,
 				E2E88C0B1AA3FBFE00048A90 /* LaunchScreen.xib */,
 				E2E88C001AA3FBFE00048A90 /* Garage.xcdatamodeld */,
 				E2E88BF91AA3FBFE00048A90 /* Supporting Files */,
+				E2E88C221AA6C4A100048A90 /* Settings.h */,
+				E2E88C231AA6C4A100048A90 /* Settings.m */,
 			);
 			path = Garage;
 			sourceTree = "<group>";
@@ -202,9 +248,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E5BC0F1AA97F89007D1E79 /* moby1.png in Resources */,
+				E2E5BC1B1AA98017007D1E79 /* moby11.png in Resources */,
+				E2E5BC201AA98017007D1E79 /* moby7.png in Resources */,
+				E2E5BC1E1AA98017007D1E79 /* moby5.png in Resources */,
+				E2E5BC1F1AA98017007D1E79 /* moby6.png in Resources */,
+				E2E5BC211AA98017007D1E79 /* moby8.png in Resources */,
+				E2E5BC221AA98017007D1E79 /* moby9.png in Resources */,
+				E2E5BC1D1AA98017007D1E79 /* moby4.png in Resources */,
 				E2E88C081AA3FBFE00048A90 /* Main.storyboard in Resources */,
+				E2E5BC111AA97F89007D1E79 /* moby3.png in Resources */,
 				E2E88C0D1AA3FBFE00048A90 /* LaunchScreen.xib in Resources */,
+				E2E5BC101AA97F89007D1E79 /* moby2.png in Resources */,
+				E2E5BC231AA98017007D1E79 /* moby10.png in Resources */,
 				E2E88C0A1AA3FBFE00048A90 /* Images.xcassets in Resources */,
+				E2E5BC1C1AA98017007D1E79 /* moby12.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +282,10 @@
 			files = (
 				E2E88BFF1AA3FBFE00048A90 /* AppDelegate.m in Sources */,
 				E2E88C021AA3FBFE00048A90 /* Garage.xcdatamodeld in Sources */,
+				E2E88C241AA6C4A100048A90 /* Settings.m in Sources */,
 				E2E88C051AA3FBFE00048A90 /* ViewController.m in Sources */,
 				E2E88BFC1AA3FBFE00048A90 /* main.m in Sources */,
+				E2E88C2D1AA6D88600048A90 /* EditSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +476,7 @@
 				E2E88C1E1AA3FBFE00048A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2E88C1F1AA3FBFE00048A90 /* Build configuration list for PBXNativeTarget "GarageTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +485,7 @@
 				E2E88C211AA3FBFE00048A90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
